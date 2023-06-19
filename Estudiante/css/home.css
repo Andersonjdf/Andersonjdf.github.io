@@ -1,0 +1,335 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container { 
+  background: transparent url(../images/grass.png) repeat-x bottom;
+  display: flex;
+  position: relative;
+  
+}
+#main{
+  width: 60%;
+  height: 90%;
+  background-color: white;
+  margin: 0px auto 0px auto;
+
+
+  border-style: solid;
+  border-color: lightgreen;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+header{
+  text-align: center;
+  
+}
+
+
+header img{
+  display: inline-block;
+  width: 500px; 
+  margin-right: 10px; 
+}
+
+.Nav_Cont{
+  overflow: hidden;
+  background-color: lightskyblue;
+  margin: 20px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.Nav_Cont a{
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.Nav_Cont a:hover, #navegacion{
+background-color: white;
+color: lightskyblue;
+font: bold;
+font-size: 16px;
+}
+.Nav_Cont  li{
+  list-style: none;
+}
+.Adopta_Me{
+  display: none;
+  position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:150px;
+    padding: 3px;
+    list-style: none;
+    
+    top: 100%;
+  
+    right: 0;
+  
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightskyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: lightskyblue;
+  color: white;
+}
+.dropdown-content a:hover {
+  background-color:white;
+  color:lightskyblue;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.informacion{
+  margin-left: 25px;
+  
+}
+.informacion h1{
+
+color: #E5017D;
+}
+.informacion li{
+  list-style: decimal;
+}
+#perro{
+ border: solid 2px;
+ float: right;
+ margin-right: 10px; 
+ margin-left: 9px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+.Principal{
+  display: inline-block;
+  float: right;
+  clear: right;
+}
+aside{
+  display:block;
+  width: 150px;
+  background-color: #F5FEFF;
+ 
+  border-radius: 5px;
+  border: solid #C9E5E9 2px;
+  padding: 10px 10px 10px 10px; 
+  margin: 15px 25px 25px 65px ;
+ border-color:  #C9E5E9;
+}
+
+aside h2{
+  color: #61f761;
+
+}
+aside li{
+  list-style: none;
+
+}
+aside a{ 
+  color: lightskyblue;
+}
+
+footer li  {
+  display: inline-block;
+  list-style: none;
+ 
+}
+footer li a, a{
+  color: white;
+}
+footer{
+  margin: 20px;
+  border-radius: 5px;
+  background-color:lightskyblue;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+#Conciencia{
+  margin: 20px;
+  overflow: hidden;
+
+}
+#Conciencia h1{
+  color: #E5017D;
+}
+#Conciencia h3{
+  color: #C4E9E8;
+}
+#centro{
+  margin-left: 26%;
+}
+.Noticia h1{
+  color: #E5017D;
+}
+#Noticia{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#Noticia h2{
+  margin-top: 50px;
+}
+
+#Tabla1{
+background-color: #C4E9E8;
+}
+#Tabla2{
+  background-color: azure;
+}
+#final{
+  background-color: #E5017D;
+  padding: 10px;
+}
+#Disponibles{
+  text-align: center;
+  background-color: lightskyblue;
+  padding: 5px;
+}
+table{
+ 
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+td {
+  
+  padding: 10px;
+}
+#Desc{
+  background-color: #E5017D;
+  
+}
+#t2,#t4,#t6{
+background-color: #C4E9E8;
+}
+#Acerca{
+  text-align: center;
+  color: #E5017D;
+}
+.form-registrer a{
+  color: black;
+}
+.form-registrer{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-registrer h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+
+}
+.controls{
+  width: 200px;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  color: white;
+}
+.form-registrer p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-registrer a{
+  color: white;
+  text-decoration: none;
+}
+.form-registrer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.form-registrer .botons{
+  width: 100%;
+background-color: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
