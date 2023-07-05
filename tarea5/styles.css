@@ -1,0 +1,36 @@
+h1 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #777;
+  }
+  label {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #777;
+  }
+  #resultado {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+}
+#mensaje {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
